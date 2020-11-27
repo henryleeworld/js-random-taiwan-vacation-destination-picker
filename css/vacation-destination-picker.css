@@ -1,0 +1,130 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic);
+@-moz-keyframes scroll-numbers {
+    from {
+        top: 0;
+    }
+    to {
+        top: -28em;
+    }
+}
+
+@-webkit-keyframes scroll-numbers {
+    from {
+        top: 0;
+    }
+    to {
+        top: -28em;
+    }
+}
+
+@keyframes scroll-numbers {
+    from {
+        top: 0;
+    }
+    to {
+        top: -28em;
+    }
+}
+
+body {
+    font-family: 'Roboto', Helvetica, sans-serif;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+h1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center;
+    font-size: 2em;
+    padding: 0.5em;
+    margin: 0;
+    background-color: teal;
+    color: white;
+    text-shadow: 0 0 2px black;
+    width: 100vw;
+    z-index: 500;
+    text-transform: uppercase;
+    -moz-box-shadow: 0px 0px 10px 0px black;
+    -webkit-box-shadow: 0px 0px 10px 0px black;
+    box-shadow: 0px 0px 10px 0px black;
+}
+
+#map {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+.spinner {
+    margin: 0;
+    font-size: 1.5em;
+    position: absolute;
+    bottom: 2vh;
+    left: 25vw;
+    width: 50vw;
+    z-index: 100;
+    -moz-box-shadow: 0px 0px 10px 0px black;
+    -webkit-box-shadow: 0px 0px 10px 0px black;
+    box-shadow: 0px 0px 10px 0px black;
+}
+
+.spinner footer {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 15vw;
+    height: 100%;
+}
+
+.spinner footer .stop {
+    width: 100%;
+    height: 100%;
+}
+
+.spinner .stop {
+    display: block;
+    margin: 0;
+    line-height: 1.5em;
+    font-size: 1em;
+    width: 100%;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    border: 0 none;
+    background: darkorange;
+    color: white;
+    text-shadow: 0 0 0.5em black;
+    text-transform: uppercase;
+    outline: 0 none;
+}
+
+.roller {
+    background: teal;
+    color: white;
+    text-shadow: 0 0 0.25em black;
+    font-weight: bold;
+    width: 35vw;
+    height: 2em;
+    position: relative;
+    overflow: hidden;
+}
+
+.roller ul {
+    width: 100%;
+    position: absolute;
+    font-size: 1em;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    line-height: 2em;
+    height: 2em;
+}
+
+.roller ul li {
+    display: block;
+    text-align: center;
+}
