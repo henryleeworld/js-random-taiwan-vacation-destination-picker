@@ -11,5 +11,5 @@ $ git clone
 ----
 
 ## 畫面截圖
-![](https://i.imgur.com/aiqpEVc.gif)
+![](https://i.imgur.com/l2R80XZ.gif)
 > 旅遊前事先辦理行程規劃、注意旅遊安全、遵守交通規則
